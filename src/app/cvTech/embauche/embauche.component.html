@@ -1,0 +1,13 @@
+<div *ngIf="personne">
+    <span *ngFor="let persone of personne">
+            <img src="assets/images/20180917_091258.jpg"
+             width="150px" height="150px" 
+             class="rounded-circle"
+            alt=" {{persone.firstname}}">
+            {{ persone.firstname | 
+                
+                
+                
+                json}}  {{ persone.name }}
+    </span>
+</div>
